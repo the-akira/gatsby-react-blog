@@ -3,12 +3,12 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout'
 
 const NotFound = () => {
-	return (
-		<Layout>
-			<h1>Page not found</h1>
-			<p><Link to="/">Go to Home</Link></p>
-		</Layout>
-	)
+    return (
+        <Layout>
+            <h1>Page not found</h1>
+            <p><Link to="/">Go to Home</Link></p>
+        </Layout>
+    )
 }
 
 export default NotFound

@@ -1,43 +1,45 @@
 .posts {
-	list-style-type: none;
-	margin-left: 0;
-	margin-top: 0;
-	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
-	grid-template-rows: auto;
-	justify-content: space-evenly;
-	padding: 19px;
-	grid-column-gap: 20px;
-	overflow-x: hidden;
-	li {
-		padding: 15px;
-		border: 4px solid black;
-		opacity: 0.9;
-	}
+    list-style-type: none;
+    margin-left: 0;
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    grid-template-rows: auto;
+    justify-content: space-evenly;
+    padding: 19px;
+    grid-column-gap: 20px;
+    overflow-x: hidden;
+
+    li {
+        padding: 15px;
+        border: 4px solid black;
+        opacity: 0.9;
+    }
 }
 
 .post {
-	margin: 1rem 0;
-	background-color: #a2aaab;
-	a {
-		color: black;
-		padding: 1rem;
-		text-decoration: none;
-		text-align: center;
-	}
+    margin: 1rem 0;
+    background-color: #a2aaab;
 
-	a:hover{
-		color: white;
-		cursor: url("https://github.githubassets.com/images/icons/emoji/unicode/1f4d5.png"), auto;
-	}
+    a {
+        color: black;
+        padding: 1rem;
+        text-decoration: none;
+        text-align: center;
+    }
 
-	h2 {
-		margin-bottom: 0;
-	}
+    a:hover {
+        color: white;
+        cursor: url("https://github.githubassets.com/images/icons/emoji/unicode/1f4d5.png"), auto;
+    }
 
-	p {
-		color: black;
-		font-size: 0.8rem;
-		font-style: italic;
-	}
+    h2 {
+        margin-bottom: 0;
+    }
+
+    p {
+        color: black;
+        font-size: 0.8rem;
+        font-style: italic;
+    }
 }
