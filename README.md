@@ -8,7 +8,7 @@
 
     ```shell
     git clone https://github.com/the-akira/gatsby-react-blog.git
-
+    ```
 
 2.  **Install Packages**
 
@@ -25,6 +25,7 @@
     ```shell
     gatsby develop
     ```
+
 4.  **Build**
 
     Navigate into the site’s directory and build it up.
