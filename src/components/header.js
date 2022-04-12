@@ -20,7 +20,7 @@ const Header = () => {
                 </Link>
             </h1>
             <Link to="/">
-                <img src="https://i.imgur.com/sN0XDIf.png" alt="img" />
+                <img src="https://raw.githubusercontent.com/the-akira/gatsby-react-blog/master/static/atom.png" alt="img" />
             </Link>
             <nav>
                 <ul className={headerStyles.navList}>
